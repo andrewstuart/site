@@ -1,7 +1,9 @@
 {
   "name": "astuart",
   "version": "0.0.0",
-  "dependencies": {},
+  "dependencies": {
+    "grunt-aws-s3": "^0.13.1"
+  },
   "repository": {},
   "devDependencies": {
     "grunt": "^0.4.5",
