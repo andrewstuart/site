@@ -8,10 +8,6 @@
  * Controller of the astuartApp
  */
 angular.module('astuartApp')
-  .controller('MainCtrl', function ($scope) {
-    $scope.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
+  .controller('MainCtrl', function ($scope, Things) {
+    $scope.things = Things;
   });
