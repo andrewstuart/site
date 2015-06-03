@@ -1,0 +1,8 @@
+{
+  "bucket": "www.astuart.co",
+  "region": "us-west-1",
+  "uploadConcurrency": 20,
+  "mime": {
+    "dist/data": "application/json"
+  }
+}

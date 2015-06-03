@@ -1,6 +1,8 @@
 // Generated on 2015-05-29 using generator-angular 0.11.1
 'use strict';
 
+var _ = require('lodash');
+
 // # Globbing
 // for performance reasons we're only matching one level down:
 // 'test/spec/{,*/}*.js'
@@ -423,7 +425,7 @@ module.exports = function (grunt) {
     },
     'aws_s3': {
       deploy: {
-        options: require('./s3.json'),
+        options: _.extend(require('./s3.json'), require('./s3-secrets.json')),
         files: [{
           expand: true,
           cwd: 'dist',

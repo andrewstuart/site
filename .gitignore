@@ -3,4 +3,4 @@ dist
 .tmp
 .sass-cache
 bower_components
-s3.json
+s3-secrets.json
